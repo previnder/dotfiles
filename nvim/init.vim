@@ -13,6 +13,11 @@ syntax on
 
 autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
 
+" Hard word breaking at 80 chars.
+autocmd FileType markdown,text setlocal formatoptions+=w
+autocmd FileType markdown,text setlocal tw=80
+nnoremap Q gqip
+
 call plug#begin('~/.vim/plugged')
 	Plug 'preservim/nerdtree'
 	Plug 'vim-airline/vim-airline'
@@ -28,6 +33,7 @@ call plug#begin('~/.vim/plugged')
 	Plug 'junegunn/seoul256.vim'
 	Plug 'NLKNguyen/papercolor-theme'
 	Plug 'arcticicestudio/nord-vim'
+	Plug 'ayu-theme/ayu-vim'
 call plug#end()
 
 let $FZF_DEFAULT_COMMAND = "rg --files --hidden -g '!.git'"
@@ -39,11 +45,16 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 nmap <F6> :NERDTreeToggle<CR>
 let g:NERDTreeMinimalUI = v:true
 
-colorscheme PaperColor
-set background=light
+set termguicolors
+let ayucolor="mirage"
+colorscheme gruvbox
+" set background=light
 highlight clear SignColumn
 
 let g:gruvbox_contrast_dark = 'soft'
+
+" airline
+let g:airline#extensions#tabline#enabled = 1
 
 " fzf
 nnoremap <C-p> :Files<CR>
