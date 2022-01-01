@@ -8,3 +8,5 @@ map p print
 map i recolor
 map K zoom in
 map J zoom out
+set window-width 4000
+set window-height 4000
