@@ -11,5 +11,5 @@ map J zoom out
 set window-width 4000
 set window-height 4000
 set selection-clipboard clipboard
-set sandbox strict
+# set sandbox strict
 
