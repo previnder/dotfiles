@@ -9,6 +9,8 @@ set tabstop=4
 set mouse=a
 "set guicursor=
 set encoding=utf-8
+set noswapfile
+set incsearch
 syntax on
 
 autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
@@ -55,6 +57,7 @@ let g:gruvbox_contrast_dark = 'soft'
 
 " airline
 let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#whitespace#enabled = 0
 
 " fzf
 nnoremap <C-p> :Files<CR>
@@ -80,5 +83,8 @@ nnoremap <C-m> <C-o>
 " hi Normal guibg=NONE ctermbg=NONE
 
 let g:go_fmt_command = "goimports"
+
+inoremap jk <ESC>
+let mapleader=""
 
 source ~/.config/nvim/coc.vim
