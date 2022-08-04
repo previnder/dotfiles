@@ -36,6 +36,7 @@ call plug#begin('~/.vim/plugged')
 	Plug 'NLKNguyen/papercolor-theme'
 	Plug 'arcticicestudio/nord-vim'
 	Plug 'ayu-theme/ayu-vim'
+	Plug 'rakr/vim-one'
 call plug#end()
 
 let $FZF_DEFAULT_COMMAND = "rg --files --hidden -g '!.git'"
