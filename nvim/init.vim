@@ -30,6 +30,7 @@ call plug#begin('~/.vim/plugged')
 	Plug 'fatih/vim-go', { 'do': 'GoUpdateBinaries' }
 	Plug 'mattn/emmet-vim',
 	Plug 'MaxMEllon/vim-jsx-pretty'
+	Plug 'ryanoasis/vim-devicons'
 	" colorschemes
 	Plug 'morhetz/gruvbox'
 	Plug 'junegunn/seoul256.vim'
@@ -50,7 +51,7 @@ autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTr
 " Close the tab if NERDTree is the only window remaining in it.
 autocmd BufEnter * if winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
 " Open the existing NERDTree on each new tab.
-autocmd BufWinEnter * if getcmdwintype() == '' | silent NERDTreeMirror | endif
+" autocmd BufWinEnter * if getcmdwintype() == '' | silent NERDTreeMirror | endif
 " Mirror the NERDTree before showing it. This makes it the same on all tabs.
 nnoremap <F6> :NERDTreeMirror<CR>:NERDTreeFocus<CR>
 let g:NERDTreeMinimalUI = v:true
