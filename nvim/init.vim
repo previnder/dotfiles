@@ -83,6 +83,16 @@ nmap <C-k> <C-w>k
 nmap <Up> <C-u>
 nmap <Down> <C-d>
 
+nnoremap j gj
+nnoremap gj j
+nnoremap k gk
+nnoremap gk k
+
+nnoremap 0 g0
+nnoremap g0 0
+nnoremap $ g$
+nnoremap g$ $
+
 nnoremap gb :ls<CR>:b<Space>
 nnoremap gn :bn<CR>
 nnoremap gp :bp<CR>
