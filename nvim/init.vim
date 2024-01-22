@@ -101,6 +101,11 @@ nmap <Right> :bn<CR>
 nnoremap <Leader>h :bp<CR>
 nnoremap <Leader>l :bn<CR>
 
+noremap <Leader>y "+y
+noremap <Leader>p "+p
+noremap <Leader>P "+P
+nnoremap <Leader>yw "+yiw
+
 " Transparent background
 " hi Normal guibg=NONE ctermbg=NONE
 
