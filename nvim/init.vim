@@ -111,4 +111,4 @@ nnoremap <Leader>yw "+yiw
 
 let g:go_fmt_command = "goimports"
 
-source ~/.config/nvim/coc.vim
+" source ~/.config/nvim/coc.vim
