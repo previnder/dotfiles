@@ -12,9 +12,9 @@ PATH="$PATH:/home/common/scripts"
 PATH="$PATH:$HOME/Code/python"
 export EDITOR=nvim
 
-alias youtube-dl='youtube-dl --external-downloader aria2c --external-downloader-args "-j 16 -x 16 -s 16 -k 1M"'
-alias youtube-dl-fhd="youtube-dl -f 'bestvideo[height<=1080]+bestaudio/best[height<=1080]'"
+alias yt-dlp="yt-dlp --embed-metadata --embed-subs"
 alias yt-dlp-fhd="yt-dlp -f 'bestvideo[height<=1080]+bestaudio/best[height<=1080]'"
+alias yt-dlp-hd="yt-dlp -f 'bestvideo[height<=720]+bestaudio/best[height<=720]'"
 
 alias gs='git show'
 alias gl='git log'
