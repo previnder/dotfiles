@@ -5,6 +5,8 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 export EDITOR='nvim'
+alias vim='nvim'
+alias vi='/usr/bin/vim'
 
 export PATH="$PATH:$HOME/Scripts"
 
