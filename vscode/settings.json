@@ -1,0 +1,38 @@
+{
+  "workbench.startupEditor": "none",
+  "window.titleBarStyle": "custom",
+  "editor.fontFamily": "'Cascadia Code', 'Droid Sans Mono', 'monospace', monospace",
+  "vim.vimrc.enable": true,
+  "vim.vimrc.path": "~/.vimrc",
+  "vim.leader": ";",
+  "editor.formatOnSave": true,
+  "workbench.colorTheme": "GitHub Light",
+  "workbench.preferredLightColorTheme": "GitHub Light",
+  "workbench.preferredDarkColorTheme": "GitHub Dark",
+  "editor.cursorStyle": "block",
+  "editor.minimap.enabled": false,
+  "editor.lineNumbers": "relative",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit",
+      "source.sortMembers": "explicit"
+    }
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit",
+      "source.sortMembers": "explicit"
+    }
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.stickyScroll.enabled": false
+}
+

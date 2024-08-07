@@ -1,0 +1,7 @@
+// Place your key bindings in this file to override the defaults
+[
+  { "key": "ctrl+p", "command": "workbench.action.quickOpen" },
+  { "key": "ctrl+,", "command": "workbench.action.toggleMaximizeEditorGroup" },
+  { "key": "ctrl+k", "command": "editor.action.showHover" },
+  { "key": "alt+.", "command": "workbench.action.terminal.toggleTerminal" }
+]
