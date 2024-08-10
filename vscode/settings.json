@@ -13,15 +13,7 @@
   "editor.minimap.enabled": false,
   "editor.lineNumbers": "relative",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.codeActionsOnSave": {
-      "source.fixAll": "explicit",
-      "source.organizeImports": "explicit",
-      "source.sortMembers": "explicit"
-    }
-  },
-  "[javascriptreact]": {
+  "[javascript][typescript][javascriptreact][typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.codeActionsOnSave": {
       "source.fixAll": "explicit",
@@ -35,4 +27,3 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "editor.stickyScroll.enabled": false
 }
-
