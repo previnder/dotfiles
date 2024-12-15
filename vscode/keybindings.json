@@ -4,4 +4,5 @@
   { "key": "ctrl+,", "command": "workbench.action.toggleMaximizeEditorGroup" },
   { "key": "ctrl+k", "command": "editor.action.showHover" },
   { "key": "alt+.", "command": "workbench.action.terminal.toggleTerminal" }
+  { "key": "shift+f11", "command": "workbench.action.toggleZenMode" }
 ]
