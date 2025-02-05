@@ -3,6 +3,7 @@
 ln -fsr "zshrc" "$HOME/.zshrc"
 ln -fsr "tmux.conf" "$HOME/.tmux.conf"
 ln -fsr "inputrc" "$HOME/.inputrc"
+ln -fsr "hidden" "$HOME/.hidden"
 
 NVIM_DIR="$HOME/.config/nvim"
 mkdir -p $NVIM_DIR
