@@ -66,6 +66,9 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#whitespace#enabled = 0
 
 inoremap jk <ESC>
+" Note that the leader key has to be explicitly mentioned in the VSCode
+" settings for it to work in the VSCode Vim extension. If the leader key is to
+" be changed, therefore, it shall also be changed in the VSCode config file.
 let mapleader=";"
 
 nnoremap <leader>d :bp<cr>:bd #<cr>
