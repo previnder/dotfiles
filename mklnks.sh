@@ -14,7 +14,7 @@ mkdir -p $MPV_DIR
 ln -fsr "mpv/input.conf" "$MPV_DIR/input.conf"
 ln -fsr "mpv/mpv.conf" "$MPV_DIR/mpv.conf"
 
-ZATHURA_DIR="$HOME/.config/mpv"
+ZATHURA_DIR="$HOME/.config/zathura"
 mkdir -p $ZATHURA_DIR
 ln -fsr "zathurarc" "$ZATHURA_DIR/zathurarc"
 
