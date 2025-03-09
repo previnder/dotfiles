@@ -69,7 +69,7 @@ inoremap jk <ESC>
 " Note that the leader key has to be explicitly mentioned in the VSCode
 " settings for it to work in the VSCode Vim extension. If the leader key is to
 " be changed, therefore, it shall also be changed in the VSCode config file.
-let mapleader=";"
+let mapleader=" "
 
 nnoremap <leader>d :bp<cr>:bd #<cr>
 

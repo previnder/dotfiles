@@ -4,7 +4,7 @@
   "editor.fontFamily": "'Cascadia Code', 'Droid Sans Mono', 'monospace', monospace",
   "vim.vimrc.enable": true,
   "vim.vimrc.path": "~/.vimrc",
-  "vim.leader": ";",
+  "vim.leader": " ",
   "editor.formatOnSave": true,
   "workbench.colorTheme": "GitHub Light",
   "workbench.preferredLightColorTheme": "GitHub Light",
