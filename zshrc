@@ -50,3 +50,5 @@ alias gsh='git show'
 alias gb='git branch'
 alias gba='git branch --all'
 
+# Make the aliases work with sudo
+alias sudo="sudo "
