@@ -17,6 +17,8 @@ alias yt-dlp='yt-dlp --embed-metadata --embed-subs'
 alias yt-dlp-hd="yt-dlp -f 'bestvideo[height<=720]+bestaudio/best[height<=720]'"
 alias yt-dlp-fhd="yt-dlp -f 'bestvideo[height<=1080]+bestaudio/best[height<=1080]'"
 
+alias neofetch='fastfetch --config neofetch.jsonc'
+
 # Pretty Git log
 HASH="%C(always,yellow)%h%C(always,reset)"
 RELATIVE_TIME="%C(always,green)%ar%C(always,reset)"
