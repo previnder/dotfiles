@@ -57,3 +57,9 @@ alias gba='git branch --all'
 
 # Make the aliases work with sudo
 alias sudo="sudo "
+
+# Vi mode
+bindkey -v
+bindkey -M viins 'jk' vi-cmd-mode
+bindkey "^R" history-incremental-search-backward
+
