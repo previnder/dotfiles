@@ -9,7 +9,7 @@ alias vi='/usr/bin/vim'
 
 export GOPATH=$HOME/go
 
-export PATH="$PATH:$HOME/Scripts:$HOME/.local/bin:$GOPATH/bin"
+export PATH="$HOME/Scripts:$HOME/.local/bin:$GOPATH/bin:$PATH"
 export npm_config_prefix="$HOME/.local"
 
 alias diff='diff --color'

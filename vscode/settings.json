@@ -12,7 +12,6 @@
   "workbench.preferredLightColorTheme": "GitHub Light",
   "workbench.preferredDarkColorTheme": "GitHub Dark Dimmed",
   "editor.cursorStyle": "block",
-  "editor.minimap.enabled": false,
   "editor.lineNumbers": "relative",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[javascript][typescript][javascriptreact][typescriptreact]": {
@@ -20,13 +19,14 @@
     "editor.codeActionsOnSave": {
       "source.fixAll": "explicit",
       "source.organizeImports": "explicit",
-      "source.sortMembers": "explicit"
-    }
+      "source.sortMembers": "explicit",
+    },
   },
   "[go]": {
-    "editor.defaultFormatter": "golang.go"
+    "editor.defaultFormatter": "golang.go",
   },
   "liveServer.settings.donotShowInfoMsg": true,
   "editor.stickyScroll.enabled": false,
-  "diffEditor.ignoreTrimWhitespace": true
+  "diffEditor.ignoreTrimWhitespace": true,
+  "workbench.browser.openLocalhostLinks": false,
 }
