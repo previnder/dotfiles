@@ -7,9 +7,9 @@ export EDITOR='nvim'
 alias vim='nvim'
 alias vi='/usr/bin/vim'
 
-export GOPATH=$HOME/go
+export GOPATH=$HOME/.go
 
-export PATH="$HOME/Scripts:$HOME/.local/bin:$GOPATH/bin:$PATH"
+export PATH="$(brew --prefix)/bin:$(go env GOPATH)/bin:$HOME/Scripts:$HOME/.local/bin:$GOPATH/bin:$PATH"
 export npm_config_prefix="$HOME/.local"
 
 alias diff='diff --color'
