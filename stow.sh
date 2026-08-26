@@ -1,6 +1,7 @@
 #!/bin/bash
 
 stow --target="$HOME" -v mpv
+stow --target="$HOME" -v vim
 stow --target="$HOME" -v nvim
 stow --target="$HOME" -v tmux
 stow --target="$HOME" -v vscode
