@@ -7,3 +7,4 @@ stow --target="$HOME" -v tmux
 stow --target="$HOME" -v vscode
 stow --target="$HOME" -v zathura
 stow --target="$HOME" -v zsh
+stow --target="$HOME" -v ghostty
