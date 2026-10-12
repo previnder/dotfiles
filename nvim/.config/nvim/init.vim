@@ -56,7 +56,7 @@ let g:NERDTreeMinimalUI = v:true
 set termguicolors
 let ayucolor="mirage"
 colorscheme one
-set background=light
+set background=dark
 highlight clear SignColumn
 
 let g:gruvbox_contrast_dark = 'soft'
