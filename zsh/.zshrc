@@ -63,3 +63,13 @@ bindkey -v
 bindkey -M viins 'jk' vi-cmd-mode
 bindkey "^R" history-incremental-search-backward
 
+# homebrew auto-complete
+if type brew &>/dev/null; then
+  eval "$(brew shellenv)"
+  autoload -Uz compinit
+  compinit
+fi
+
+alias python='python3'
+alias json-pretty='python -m json.tool'
+
