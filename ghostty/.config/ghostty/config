@@ -2,9 +2,11 @@
 shell-integration = detect
 shell-integration-features = no-cursor
 cursor-style = block
-theme = Catppuccin Frappe
+theme = dark:Catppuccin Frappe,light:Apple System Colors Light
 window-inherit-working-directory = false
 mouse-hide-while-typing = true
+window-save-state = always
+window-new-tab-position = end
 
 # For tmux keybinds to work
 keybind = super+h=unbind
@@ -31,5 +33,3 @@ keybind = cmd+shift+o=move_tab:1
 keybind = cmd+shift+i=move_tab:-1
 
 keybind = super+r=reload_config
-
-window-save-state = always
