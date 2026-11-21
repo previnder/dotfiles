@@ -1,6 +1,6 @@
 # General
 shell-integration = detect
-shell-integration-features = no-cursor
+shell-integration-features = no-cursor,ssh-env,ssh-terminfo
 cursor-style = block
 theme = dark:Catppuccin Frappe,light:Apple System Colors Light
 window-inherit-working-directory = false
