@@ -1,6 +1,6 @@
 # Oh My Zsh
 export ZSH="$HOME/.oh-my-zsh"
-ZSH_THEME="crunch"
+ZSH_THEME="robbyrussell"
 source $ZSH/oh-my-zsh.sh
 
 export EDITOR='nvim'
@@ -73,3 +73,6 @@ fi
 alias python='python3'
 alias json-pretty='python -m json.tool'
 
+
+# opencode
+export PATH=/Users/previnder/.opencode/bin:$PATH
